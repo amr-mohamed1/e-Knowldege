@@ -67,6 +67,17 @@ font-family: 'Nunito', sans-serif;
     border:1px solid #f9218d;
 }
 
+.modal-content {
+    background-image:linear-gradient(to right, #b142bd  , #ff8f91);
+    color:#fff
+}
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+}
 /*loading*/
 
 .loading{
