@@ -25,4 +25,15 @@ $("document").ready(function () {
         backDelay: 1000,
         loop: true
     });
+    
+    // loading
+    $(".loading").ready(
+        function () {
+            setTimeout(function () {
+                $(".loading").fadeOut();
+
+            }, 3000);
+        });
+
+
 });
