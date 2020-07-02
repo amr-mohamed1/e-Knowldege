@@ -1,0 +1,72 @@
+body {
+font-family: 'Nunito', sans-serif;
+        background-color:#f5f5f5;
+}
+
+.navbar-expand-lg {
+    padding:10px 0;
+    background-color:#f5f5f5
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+}
+.navbar .navbar-brand{
+    font-size:25px;
+    font-weight:700;
+    color:#764f9e;
+}
+.navbar .navbar-brand{
+    margin-left:20px;
+}
+.navbar-light .navbar-toggler{
+    margin-right:20px;
+}
+
+
+
+
+
+/* header */
+.header{
+
+}
+.header .header-info h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #2b044d
+}
+.header .header-info h3{
+        font-size: 40px;
+    font-weight: 700;
+    color: #2b044d
+}
+.header .writter{
+    display: inline-block;
+    padding-top: 10px;
+    font-size:30px;
+}
+.header .header-info button{
+    padding:5px 40px;
+    border:1px solid #f9218d;
+    background-color:     #f9218d;
+    color:#eee;
+    border-radius:20px;
+    font-size:22px;
+    font-weight: normal;
+        transition:all .5s ease-in-out;
+    letter-spacing: 2px;
+    display: block;
+    outline:none;
+    margin-bottom:100px;
+}
+.header .header-info button i {
+    padding-left:10px;
+    font-size:20px;
+}
+.header .header-info button:hover
+{
+    background-color: transparent;
+    color:#f9218d;
+    border:1px solid #f9218d;
+}

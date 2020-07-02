@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Easy Learn</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/529df93b61.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Kalam:wght@300;400;700&family=Nunito+Sans:ital,wght@0,300;0,400;0,600;1,200&family=Nunito:wght@200;300;400;600;700&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Easy Learn</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <img style="max-height:550px; margin-top: 20px;" src="img/hero_right.png" alt="">
+
+                </div>
+                <div class="col-md-6 header-info col-xs-12">
+                    <h3>Hello</h3>
+                    <h1>let's get an A+</h1>
+                    <p class="writter"></p>
+                    <br>
+                    <button type="button" data-toggle="modal" data-target="#exampleModal">registration <i class="far fa-arrow-alt-circle-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">registration</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" required="required" placeholder="First name" id="inputEmail4">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" required="required" placeholder="Last name" id="inputPassword4">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="inputEmail4">Email</label>
+                                <input type="email" class="form-control" required="required" placeholder="abcde@gmail.ex" id="inputEmail4">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4">Password</label>
+                                <input type="password" class="form-control" required="required" id="inputPassword4">
+                                <span style="font-size:12px;">*Must contain numbers and charcter*</span>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputID4"> Id Number</label>
+                                <input type="number" class="form-control" required="required" id="inputID4">
+                                <span style="font-size:12px;">*Must be 12 number*</span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputState">Level</label>
+                                <select id="inputState" class="form-control">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputDepartment4">department</label>
+                                <input type="text" class="form-control" placeholder="ex:computer science" required="required" id="inputDepartment4">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity">university</label>
+                                <input type="text" class="form-control" placeholder="ex: cairo university" required="required" id="inputCity">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputState">collage</label>
+                                <select id="inputState" class="form-control">
+                                    <option>Faculty of computers and informatics</option>
+                                    <option>Faculty of engeneering</option>
+                                    <option>Faculty of commercy</option>
+                                    <option>Faculty of medicin</option>
+                                    <option>Faculty of law</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Agree to the terms of use
+                                </label>
+                            </div>
+                        </div>
+                        <button type="button" style="padding:0 20px;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" style="margin-left: 20px; padding:0 20px;" class="btn btn-primary">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/main.js"></script>
+</body></html>
